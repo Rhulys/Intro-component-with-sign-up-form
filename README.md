@@ -1,30 +1,39 @@
-# React + TypeScript + Vite
+# Frontend Mentor - Solução do Componente de introdução com formulário de inscrição
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Esta é uma solução para o [desafio do Componente de introdução com formulário de inscrição no Frontend Mentor](https://www.frontendmentor.io/challenges/intro-component-with-signup-form-5cf91bd49edda32581d28fd1). Os desafios do Frontend Mentor ajudam você a melhorar suas habilidades de codificação construindo projetos realistas.
 
-Currently, two official plugins are available:
+### O desafio
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Os usuários devem ser capazes de:
 
-## Expanding the ESLint configuration
+- Visualizar o layout ideal para o aplicativo, dependendo do tamanho da tela do seu dispositivo
+- Preencher o formulário e receber a mensagem de erro caso haja algo errado
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### Captura de tela
 
-- Configure the top-level `parserOptions` property like this:
+[Vizualizar](./Screenshot.png)
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+### Links
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- URL da solução: [Solução FrontEnd Mentor](https://www.frontendmentor.io/solutions/i-used-react-typescript-for-structuring-and-tailwind-for-styling-UfyexHI5SH)
+- URL do site ao vivo: [Deploy](https://rhulys.github.io/Intro-component-with-sign-up-form/)
+
+## Meu processo
+
+### Construído com
+
+- [React](https://reactjs.org/) - Biblioteca JS
+- [TypeScript](https://www.typescriptlang.org/) - superconjunto de JavaScript
+- [Tailwind CSS](https://tailwindcss.com/) - Para estilos
+
+
+### O que eu aprendi
+
+Aprendi como verificar o input vazio e retornar o erro
+Aprendi a como trocar a cor do objeto dependendo do retorno do input
+
+
+## Autor
+
+- LinkedIn - [Rhulyanderson Sander](https://www.linkedin.com/in/rhulys/)
+- Frontend Mentor - [@Rhulys](https://www.frontendmentor.io/profile/Rhulys)
