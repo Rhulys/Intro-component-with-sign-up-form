@@ -70,7 +70,7 @@ function App() {
                 className="input_form_error"
                 onChange={(e) => setFirstName(e.target.value)}
               />
-              <img src="/icon-error.svg" alt="error" className="h-8 w-8 absolute right-3 top-3"/>
+              <img src="./icon-error.svg" alt="error" className="h-8 w-8 absolute right-3 top-3"/>
               <span className="text-red-500 text-right text-xs">
                 First Name cannot be empty
               </span>
@@ -92,7 +92,7 @@ function App() {
                 className="input_form_error"
                 onChange={(e) => setLastName(e.target.value)}
               />
-              <img src="/icon-error.svg" alt="error" className="h-8 w-8 absolute right-3 top-3"/>
+              <img src="./icon-error.svg" alt="error" className="h-8 w-8 absolute right-3 top-3"/>
               <span className="text-red-500 text-right text-xs">
                 Last Name cannot be empty
               </span>
@@ -114,7 +114,7 @@ function App() {
                 className="input_form_error"
                 onChange={(e) => setEmail(e.target.value)}
               />
-              <img src="/icon-error.svg" alt="error" className="h-8 w-8 absolute right-3 top-3"/>
+              <img src="./icon-error.svg" alt="error" className="h-8 w-8 absolute right-3 top-3"/>
               <span className="text-red-500 text-right text-xs">
                 Email cannot be empty
               </span>
@@ -136,7 +136,7 @@ function App() {
                 className="input_form_error"
                 onChange={(e) => setPassword(e.target.value)}
               />
-              <img src="/icon-error.svg" alt="error" className="h-8 w-8 absolute right-3 top-3"/>
+              <img src="./icon-error.svg" alt="error" className="h-8 w-8 absolute right-3 top-3"/>
               <span className="text-red-500 text-right text-xs">
                 Password cannot be empty
               </span>
