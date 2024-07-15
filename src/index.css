@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    font-family: "Poppins", sans-serif;
+}
+
+.input_form{
+    @apply border border-grayishblue p-4 rounded-md focus:border-darkblue pl-6;
+}
+.input_form_error{
+    @apply border border-red-500 p-4 rounded-md focus:border-darkblue pl-6;
+}
